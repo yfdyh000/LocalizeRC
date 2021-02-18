@@ -64,4 +64,7 @@
     <CustomBuild Include="CodeSnippets.txt" />
     <CustomBuild Include="Notes.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
 </Project>
