@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+	<file source-language="en" target-language="en" datatype="winres" original="D:\repo\git\LocalizeRC\ChineseSimplified\ChineseSimplified.ini">
+		<body>
+			<group id="DIALOGEX">
+				<trans-unit id="0" resname="0" datatype="plaintext">
+					<source>...</source>
+					<target>...</target>
+				</trans-unit>
+				<trans-unit id="1" resname="1" datatype="plaintext">
+					<source>About LocalizeRC</source>
+					<target>关于 LocalizeRC</target>
+				</trans-unit>
+				<trans-unit id="2" resname="2" datatype="plaintext">
+					<source>Copy Resource Header and &quot;&quot;RES&quot;&quot; Folder</source>
+					<target>复制资源头和 &quot;&quot;RES&quot;&quot; 文件夹</target>
+				</trans-unit>
+				<trans-unit id="3" resname="3" datatype="plaintext">
+					<source>Create Output RC with INI</source>
+					<target>以 INI 文件输出 RC 文件</target>
+				</trans-unit>
+				<trans-unit id="4" resname="4" datatype="plaintext">
+					<source>Create/Actualize INI from Input RC</source>
+					<target>根据输入的 RC 文件创建 INI 中间文件</target>
+				</trans-unit>
+				<trans-unit id="5" resname="5" datatype="plaintext">
+					<source>Filename</source>
+					<target>文件名</target>
+				</trans-unit>
+				<trans-unit id="6" resname="6" datatype="plaintext">
+					<source>Input RC</source>
+					<target>输入 RC</target>
+				</trans-unit>
+				<trans-unit id="7" resname="7" datatype="plaintext">
+					<source>Language INI</source>
+					<target>语言 INI</target>
+				</trans-unit>
+				<trans-unit id="8" resname="8" datatype="plaintext">
+					<source>Language</source>
+					<target>语言</target>
+				</trans-unit>
+				<trans-unit id="9" resname="9" datatype="plaintext">
+					<source>LocalizeRC</source>
+					<target>LocalizeRC</target>
+				</trans-unit>
+				<trans-unit id="10" resname="10" datatype="plaintext">
+					<source>Log Window</source>
+					<target>日志窗口</target>
+				</trans-unit>
+				<trans-unit id="11" resname="11" datatype="plaintext">
+					<source>New items to the end of the section (no sorting)</source>
+					<target>新项加入段落末尾 (不重排序)</target>
+				</trans-unit>
+				<trans-unit id="12" resname="12" datatype="plaintext">
+					<source>New...</source>
+					<target>新建...</target>
+				</trans-unit>
+				<trans-unit id="13" resname="13" datatype="plaintext">
+					<source>obsolete items in INI</source>
+					<target>INI 中的过时项</target>
+				</trans-unit>
+				<trans-unit id="14" resname="14" datatype="plaintext">
+					<source>OK</source>
+					<target>确定</target>
+				</trans-unit>
+				<trans-unit id="15" resname="15" datatype="plaintext">
+					<source>Open INI for Edit</source>
+					<target>打开 INI 文件以编辑</target>
+				</trans-unit>
+				<trans-unit id="16" resname="16" datatype="plaintext">
+					<source>Open...</source>
+					<target>打开...</target>
+				</trans-unit>
+				<trans-unit id="17" resname="17" datatype="plaintext">
+					<source>Options</source>
+					<target>选项</target>
+				</trans-unit>
+				<trans-unit id="18" resname="18" datatype="plaintext">
+					<source>Output RC</source>
+					<target>输出 RC 文件</target>
+				</trans-unit>
+				<trans-unit id="19" resname="19" datatype="plaintext">
+					<source>Reverse Input and Output Language in INI</source>
+					<target>反转 INI 中的输入和输出语言</target>
+				</trans-unit>
+				<trans-unit id="20" resname="20" datatype="plaintext">
+					<source>Static</source>
+					<target>静态</target>
+				</trans-unit>
+				<trans-unit id="21" resname="21" datatype="plaintext">
+					<source>Workspace</source>
+					<target>工作区</target>
+				</trans-unit>
+			</group>
+			<group id="STRINGTABLE">
+				<trans-unit id="10000" resname="10000" datatype="plaintext">
+					<source>      needed size %1!d!x%2!d!</source>
+					<target>      所需大小 %1!d!x%2!d!</target>
+				</trans-unit>
+				<trans-unit id="10001" resname="10001" datatype="plaintext">
+					<source>      recommended rect (%1!d!,%2!d!)-(%3!d!,%4!d!)</source>
+					<target>      推荐矩形 (%1!d!,%2!d!)-(%3!d!,%4!d!)</target>
+				</trans-unit>
+				<trans-unit id="10002" resname="10002" datatype="plaintext">
+					<source>&amp;About LocalizeRC...</source>
+					<target>关于 LocalizeRC(&amp;A)...</target>
+				</trans-unit>
+				<trans-unit id="10003" resname="10003" datatype="plaintext">
+					<source>.ini</source>
+					<target>.ini</target>
+				</trans-unit>
+				<trans-unit id="10004" resname="10004" datatype="plaintext">
+					<source>.lws</source>
+					<target>.lws</target>
+				</trans-unit>
+				<trans-unit id="10005" resname="10005" datatype="plaintext">
+					<source>.rc</source>
+					<target>.rc</target>
+				</trans-unit>
+				<trans-unit id="10006" resname="10006" datatype="plaintext">
+					<source>A previous output RC file exists - will merge dialog size/pos info into new RC output where possible...</source>
+					<target>A previous output RC file exists - will merge dialog size/pos info into new RC output where possible...</target>
+				</trans-unit>
+				<trans-unit id="10007" resname="10007" datatype="plaintext">
+					<source>A total of %1!d! resource references were commented out of new RC output</source>
+					<target>A total of %1!d! resource references were commented out of new RC output</target>
+				</trans-unit>
+				<trans-unit id="10008" resname="10008" datatype="plaintext">
+					<source>ANSI</source>
+					<target>ANSI</target>
+				</trans-unit>
+				<trans-unit id="10009" resname="10009" datatype="plaintext">
+					<source>Application must be restarted to apply the changes!</source>
+					<target>Application must be restarted to apply the changes!</target>
+				</trans-unit>
+				<trans-unit id="10010" resname="10010" datatype="plaintext">
+					<source>base %1!d!x%2!d!</source>
+					<target>base %1!d!x%2!d!</target>
+				</trans-unit>
+				<trans-unit id="10011" resname="10011" datatype="plaintext">
+					<source>Check of INI file completed!</source>
+					<target>Check of INI file completed!</target>
+				</trans-unit>
+				<trans-unit id="10012" resname="10012" datatype="plaintext">
+					<source>Checking INI file...</source>
+					<target>Checking INI file...</target>
+				</trans-unit>
+				<trans-unit id="10013" resname="10013" datatype="plaintext">
+					<source>Could not copy file!</source>
+					<target>Could not copy file!</target>
+				</trans-unit>
+				<trans-unit id="10014" resname="10014" datatype="plaintext">
+					<source>Could not create folder!</source>
+					<target>Could not create folder!</target>
+				</trans-unit>
+				<trans-unit id="10015" resname="10015" datatype="plaintext">
+					<source>Could not open INI file.</source>
+					<target>Could not open INI file.</target>
+				</trans-unit>
+				<trans-unit id="10016" resname="10016" datatype="plaintext">
+					<source>Could not open workspace!</source>
+					<target>Could not open workspace!</target>
+				</trans-unit>
+				<trans-unit id="10017" resname="10017" datatype="plaintext">
+					<source>Design section &apos;%1&apos; processed - %2!d! items found, %3!d! items updated, %4!d! items skipped</source>
+					<target>Design section &apos;%1&apos; processed - %2!d! items found, %3!d! items updated, %4!d! items skipped</target>
+				</trans-unit>
+				<trans-unit id="10018" resname="10018" datatype="plaintext">
+					<source>Design subsection %1 skipped - was not found in the new RC data</source>
+					<target>Design subsection %1 skipped - was not found in the new RC data</target>
+				</trans-unit>
+				<trans-unit id="10019" resname="10019" datatype="plaintext">
+					<source>Dialog section %1 skipped - sections have different line counts</source>
+					<target>Dialog section %1 skipped - sections have different line counts</target>
+				</trans-unit>
+				<trans-unit id="10020" resname="10020" datatype="plaintext">
+					<source>Dialog section %1 skipped - was not found in the new RC data</source>
+					<target>Dialog section %1 skipped - was not found in the new RC data</target>
+				</trans-unit>
+				<trans-unit id="10021" resname="10021" datatype="plaintext">
+					<source>Dialog section &apos;%1&apos; processed - %2!d! items found, %3!d! items updated, %4!d! items skipped</source>
+					<target>Dialog section &apos;%1&apos; processed - %2!d! items found, %3!d! items updated, %4!d! items skipped</target>
+				</trans-unit>
+				<trans-unit id="10022" resname="10022" datatype="plaintext">
+					<source>Entry &apos;%1&apos; in current section skipped due to mismatch with new entry of &apos;%2&apos;</source>
+					<target>Entry &apos;%1&apos; in current section skipped due to mismatch with new entry of &apos;%2&apos;</target>
+				</trans-unit>
+				<trans-unit id="10023" resname="10023" datatype="plaintext">
+					<source>Existing INI file will be updated</source>
+					<target>Existing INI file will be updated</target>
+				</trans-unit>
+				<trans-unit id="10024" resname="10024" datatype="plaintext">
+					<source>File %1 opened!</source>
+					<target>File %1 opened!</target>
+				</trans-unit>
+				<trans-unit id="10025" resname="10025" datatype="plaintext">
+					<source>INI file keys have been reversed!</source>
+					<target>INI file keys have been reversed!</target>
+				</trans-unit>
+				<trans-unit id="10026" resname="10026" datatype="plaintext">
+					<source>INI Files(*.ini)|*.ini||</source>
+					<target>INI Files(*.ini)|*.ini||</target>
+				</trans-unit>
+				<trans-unit id="10027" resname="10027" datatype="plaintext">
+					<source>Input RC: \t%s\r\nLanguage INI:\t%s\r\nOutput RC:\t%s</source>
+					<target>Input RC: \t%s\r\nLanguage INI:\t%s\r\nOutput RC:\t%s</target>
+				</trans-unit>
+				<trans-unit id="10028" resname="10028" datatype="plaintext">
+					<source>label found &apos;%1&apos; (%2,%3)-(%4,%5) line %6!d!</source>
+					<target>label found &apos;%1&apos; (%2,%3)-(%4,%5) line %6!d!</target>
+				</trans-unit>
+				<trans-unit id="10029" resname="10029" datatype="plaintext">
+					<source>Localize RC v1.12 -?2003-2004\nby Konrad Windszus\nUpdates by WDPS Software 2013\n Updates by Christophe Bucher 2015-2017</source>
+					<target>Localize RC v1.12 -?2003-2004\nby Konrad Windszus\nUpdates by WDPS Software 2013\n Updates by Christophe Bucher 2015-2017</target>
+				</trans-unit>
+				<trans-unit id="10030" resname="10030" datatype="plaintext">
+					<source>LocalizeRC Workspace(*.lws)|*.lws||</source>
+					<target>LocalizeRC Workspace(*.lws)|*.lws||</target>
+				</trans-unit>
+				<trans-unit id="10031" resname="10031" datatype="plaintext">
+					<source>Opening INI file for processing...</source>
+					<target>Opening INI file for processing...</target>
+				</trans-unit>
+				<trans-unit id="10032" resname="10032" datatype="plaintext">
+					<source>Please define all workspace files (Input RC, Lanuage INI, Output RC) first!</source>
+					<target>Please define all workspace files (Input RC, Lanuage INI, Output RC) first!</target>
+				</trans-unit>
+				<trans-unit id="10033" resname="10033" datatype="plaintext">
+					<source>Processing of INI file completed!</source>
+					<target>Processing of INI file completed!</target>
+				</trans-unit>
+				<trans-unit id="10034" resname="10034" datatype="plaintext">
+					<source>Resource Scripts(*.rc)|*.rc||</source>
+					<target>Resource Scripts(*.rc)|*.rc||</target>
+				</trans-unit>
+				<trans-unit id="10035" resname="10035" datatype="plaintext">
+					<source>Starting merge of dialog design guide margin settings...</source>
+					<target>Starting merge of dialog design guide margin settings...</target>
+				</trans-unit>
+				<trans-unit id="10036" resname="10036" datatype="plaintext">
+					<source>Starting processing of INI file...</source>
+					<target>Starting processing of INI file...</target>
+				</trans-unit>
+				<trans-unit id="10037" resname="10037" datatype="plaintext">
+					<source>Starting removal of icon, bitmap, and cursor resource references in new RC output...</source>
+					<target>Starting removal of icon, bitmap, and cursor resource references in new RC output...</target>
+				</trans-unit>
+				<trans-unit id="10038" resname="10038" datatype="plaintext">
+					<source>The file &quot;&quot;%s&quot;&quot; is in UNICODE format, but this version of LocalizeRC is only able to read ANSI format. Please convert it with an appropriate tool!</source>
+					<target>The file &quot;&quot;%s&quot;&quot; is in UNICODE format, but this version of LocalizeRC is only able to read ANSI format. Please convert it with an appropriate tool!</target>
+				</trans-unit>
+				<trans-unit id="10039" resname="10039" datatype="plaintext">
+					<source>The INI file contains sections, which are created with LocalizeRC before version 1.2. To make them compatible, remove all trailing and leading whitespaces from the section names (the ones within []) and try again!</source>
+					<target>The INI file contains sections, which are created with LocalizeRC before version 1.2. To make them compatible, remove all trailing and leading whitespaces from the section names (the ones within []) and try again!</target>
+				</trans-unit>
+				<trans-unit id="10040" resname="10040" datatype="plaintext">
+					<source>Unexpected error matching size/pos for key %1 - new data was %2</source>
+					<target>Unexpected error matching size/pos for key %1 - new data was %2</target>
+				</trans-unit>
+				<trans-unit id="10041" resname="10041" datatype="plaintext">
+					<source>UNICODE (UTF-8)</source>
+					<target>UNICODE (UTF-8)</target>
+				</trans-unit>
+				<trans-unit id="10042" resname="10042" datatype="plaintext">
+					<source>Unknown error %d!</source>
+					<target>Unknown error %d!</target>
+				</trans-unit>
+				<trans-unit id="10043" resname="10043" datatype="plaintext">
+					<source>Workspace loaded!</source>
+					<target>Workspace loaded!</target>
+				</trans-unit>
+			</group>
+			<group id="DLGINIT">
+				<trans-unit id="20000" resname="20000" datatype="plaintext">
+					<source>elete;Mark (with #)</source>
+					<target>elete;Mark (with #)</target>
+				</trans-unit>
+			</group>
+			<group id="code_page">
+				<trans-unit id="30000" resname="30000" datatype="plaintext">
+					<source>25</source>
+					<target>25</target>
+				</trans-unit>
+				<trans-unit id="30001" resname="30001" datatype="plaintext">
+					<source>500</source>
+					<target>500</target>
+				</trans-unit>
+			</group>
+		</body>
+	</file>
+</xliff>

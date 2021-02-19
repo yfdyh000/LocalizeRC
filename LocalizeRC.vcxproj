@@ -78,9 +78,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UNICODE Release|Win32'">
     <OutDir>.\UNICODE_Release\</OutDir>
     <IntDir>.\UNICODE_Release\</IntDir>
-    <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\priv\projects\gitstuff\boost_1_63_0;$(WindowsSdkDir_81)\Include\um;$(WindowsSdkDir_81)\Include\shared</IncludePath>
-    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);C:\priv\projects\gitstuff\boost_1_63_0\stage\lib;$(WindowsSdkDir_81)\Lib\winv6.3\um\x86</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>.\Debug\</OutDir>
@@ -141,18 +138,12 @@
       <TypeLibraryName>.\LocalizeRC___Win32_UNICODE_Release0/LocalizeRC.tlb</TypeLibraryName>
     </Midl>
     <ClCompile>
-      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <StringPooling>true</StringPooling>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
       <PrecompiledHeaderOutputFile>.\UNICODE_Release/LocalizeRC.pch</PrecompiledHeaderOutputFile>
       <AssemblerListingLocation>.\UNICODE_Release/</AssemblerListingLocation>
       <ObjectFileName>.\UNICODE_Release/</ObjectFileName>
       <ProgramDataBaseFileName>.\UNICODE_Release/</ProgramDataBaseFileName>
-      <WarningLevel>Level3</WarningLevel>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
@@ -164,8 +155,6 @@
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;shlwapi.lib;delayimp.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)LocalizeRC.exe</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <AdditionalLibraryDirectories>F:\boost_1_53_0\bin.v2\libs\regex\build\msvc-9.0\release\link-static\threading-multi;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>.\UNICODE_Release/LocalizeRC.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>

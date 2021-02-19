@@ -2,6 +2,9 @@ UNICODE_Release/
 UNICODE_Debug/
 ipch/
 /packages
+/*/res/
+Debug
+.vs
 
 *.aps
 *.user

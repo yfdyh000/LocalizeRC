@@ -1,0 +1,328 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(65001)\r\n"
+    "#include ""res\\LocalizeRC.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\LocalizeRC.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 LocalizeRC"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "静态",IDC_ABOUT,56,7,100,41
+    DEFPUSHBUTTON   "确定",IDOK,178,20,50,14,WS_GROUP
+END
+
+IDD_LOCALIZERC_DIALOG DIALOGEX 0, 0, 480, 337
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "LocalizeRC"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "根据输入的 RC 文件创建 INI 中间文件",IDC_CREATEINI,15,257,183,15
+    PUSHBUTTON      "打开 INI 文件以编辑",IDC_OPENINI,15,282,183,15
+    PUSHBUTTON      "以 INI 文件输出 RC 文件",IDC_CREATEOUTPUT,15,307,183,15
+    CTEXT           "静态",IDC_ABOUT,335,12,138,34
+    CONTROL         "复制资源头和 ""RES"" 文件夹",IDC_COPY,"Button",BS_AUTOCHECKBOX | BS_NOTIFY | WS_TABSTOP,281,298,184,11
+    PUSHBUTTON      "反转 INI 中的输入和输出语言",IDC_REVERSEINI,281,258,184,15
+    GROUPBOX        "选项",IDC_STATIC,272,247,201,83
+    LTEXT           "INI 中的过时项",IDC_STATIC,357,280,111,10
+    COMBOBOX        IDC_OBS_ITEMS,281,278,71,56,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "文件名",IDC_STATIC,13,12,38,12,SS_CENTERIMAGE
+    PUSHBUTTON      "打开...",IDC_CHNG_WORKSPACE,189,27,80,14
+    GROUPBOX        "工作区",IDC_STATIC,7,3,320,95
+    COMBOBOX        IDC_LANGUAGE,335,80,138,71,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "语言",IDC_STATIC,335,66,138,14,SS_CENTERIMAGE
+    CONTROL         "",IDC_EDIT,"RichEdit20W",ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,7,112,466,128,WS_EX_CLIENTEDGE
+    CTEXT           "日志窗口",IDC_STATIC,7,102,466,8
+    CTEXT           "静态",IDC_TEXTMODE,335,52,138,8
+    CONTROL         "新项加入段落末尾 (不重排序)",IDC_NOSORT,"Button",BS_AUTOCHECKBOX | BS_NOTIFY | WS_TABSTOP,281,313,188,15
+    PUSHBUTTON      "新建...",IDC_NEW_WORKSPACE,70,27,80,14
+    LTEXT           "静态",IDC_WORKSPACE,70,12,250,12,SS_CENTERIMAGE | SS_PATHELLIPSIS
+    LTEXT           "静态",IDC_INPUTRC,70,52,219,14,SS_CENTERIMAGE | SS_PATHELLIPSIS
+    LTEXT           "输入 RC",IDC_STATIC,13,52,53,14,SS_CENTERIMAGE
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,14,46,306,1
+    LTEXT           "语言 INI",IDC_STATIC,13,66,53,14,SS_CENTERIMAGE
+    LTEXT           "静态",IDC_LANGINI,70,66,219,14,SS_CENTERIMAGE | SS_PATHELLIPSIS
+    LTEXT           "输出 RC 文件",IDC_STATIC,13,80,53,12,SS_CENTERIMAGE
+    PUSHBUTTON      "...",IDC_CHNG_INPUTRC,296,53,24,12
+    PUSHBUTTON      "...",IDC_CHNG_LANGINI,296,67,24,12
+    LTEXT           "静态",IDC_OUTPUTRC,70,80,219,14,SS_CENTERIMAGE | SS_PATHELLIPSIS
+    PUSHBUTTON      "...",IDC_CHNG_OUTPUTRC,296,81,24,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,12,0,0
+ PRODUCTVERSION 1,12,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "Konrad Windszus and WDPS Software"
+            VALUE "FileDescription", "A tool for localizing/translating Resource Scripts (RC files)"
+            VALUE "FileVersion", "1.12.0.0"
+            VALUE "InternalName", "LocalizeRC.exe"
+            VALUE "LegalCopyright", "(c) 2003 - 2004 by Konrad Windszus, 2013 by WDPS Software, 2015 - 2017 by Christophe Bucher.  All rights reserved."
+            VALUE "OriginalFilename", "LocalizeRC.exe"
+            VALUE "ProductName", "LocalizeRC"
+            VALUE "ProductVersion", "1.12.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        VERTGUIDE, 38
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_LOCALIZERC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 473
+        VERTGUIDE, 13
+        VERTGUIDE, 66
+        VERTGUIDE, 70
+        VERTGUIDE, 289
+        VERTGUIDE, 296
+        VERTGUIDE, 320
+        VERTGUIDE, 327
+        VERTGUIDE, 335
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 330
+        HORZGUIDE, 12
+        HORZGUIDE, 24
+        HORZGUIDE, 27
+        HORZGUIDE, 46
+        HORZGUIDE, 52
+        HORZGUIDE, 66
+        HORZGUIDE, 80
+        HORZGUIDE, 228
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\LocalizeRC.manifest"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_LOCALIZERC_DIALOG DLGINIT
+BEGIN
+    IDC_OBS_ITEMS, 0x403, 5, 0
+0xbec9, 0xfdb3, "\000" 
+    IDC_OBS_ITEMS, 0x403, 12, 0
+0xeab1, 0xc7bc, 0x2820, 0xc3d3, 0x2320, 0x0029, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_LOCALIZERC_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 LocalizeRC(&A)..."
+    IDS_ERR_FILECOPY        "未能复制文件!"
+    IDS_ERR_FOLDERCREATE    "未能创建文件夹!"
+    IDS_RESTARTAPP          "此更改需要重启应用程序才能生效!"
+    IDS_EXTRC               ".rc"
+    IDS_EXTRCDESCRIPTION    "资源脚本文件 (*.rc)|*.rc||"
+    IDS_EXTINI              ".ini"
+    IDS_EXTINIDESCRIPTION   "INI 文件(*.ini)|*.ini||"
+    IDS_DETAILS             "RC 输入文件: \t%s\r\n语言 INI:\t%s\r\nRC 输出文件:\t%s"
+    IDS_EXTLWS              ".lws"
+    IDS_EXTLWSDESCRIPTION   "LocalizeRC 工作区(*.lws)|*.lws||"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OLDFILEFORMAT       "INI 文件包含 LocalizeRC 1.2 版以前创建的区域。为确保兼容，请移除 [] 包裹的区域名称中的所有前导和尾随空格，然后再试!"
+    IDS_UNICODE             "UNICODE (UTF-8)"
+    IDS_ANSI                "ANSI"
+    IDS_UNICODEFILE         "文件 ""%s"" 为 UNICODE 格式，但此版本的 LocalizeRC 仅能读取 ANSI 格式。请先用工具转换!"
+    IDS_ERR_FILENAMEEMPTY   "请先定义所有的工作区文件（RC 输入文件、语言 INI、RC 输出文件）!"
+    IDS_ERR_OPENWORKSPACE   "未能打开工作区!"
+    IDS_ERR_UNKNOWN         "未知错误 %d!"
+    IDS_ERR_OPENINI         "未能打开 INI 文件。"
+    IDS_ABOUT               "Localize RC v1.12 -(c) 2003-2004\nby Konrad Windszus\nUpdates by WDPS Software 2013\n Updates by Christophe Bucher 2015-2017"
+    IDS_LWSPACELOADED       "已加载工作区!"
+    IDS_LDIALOGSECFOUND     "已处理 '%1' 对话框区域 - 找到 %2!d! 项，更新 %3!d! 项，跳过 %4!d! 项"
+    IDS_LKEYSKIPPED         "当前区域中的 '%1' 条目已跳过，与新条目 '%2' 不匹配"
+    IDS_LSECSKIPSIZE        "对话框区域 %1 已跳过 - 区域行数不同"
+    IDS_LSECSKIPNF          "对话框区域 %1 已跳过 - 新的 RC 数据中未找到"
+    IDS_LMERGINGOLDRC       "存在之前的 RC 输出文件 - 将尽可能合并对话框尺寸/位置信息到新的 RC 输出文件..."
+    IDS_LERRSPFAIL          "匹配键值 %1 的大小/位置遇到未知错误 - 新数据为 %2"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_LMERGINGOLDRC2      "开始对话框设计边距设置合并..."
+    IDS_LDESIGNSECSTAT      "已处理 '%1' 设计区域 - 找到 %2!d! 项，更新 %3!d! 项，跳过 %4!d! 项"
+    IDS_LDESIGNSECSKIPNF    "设计子区域 %1 已跳过 - 新的 RC 数据中未找到"
+    IDS_LRESREMOVAL         "开始在新输出的 RC 文件中移除图标、位图和光标资源的引用..."
+    IDS_LRESREMSTATS        "总计 %1!d! 个资源引用已在新的 RC 输出文件中被注释"
+    IDS_LINIPROCESSING      "启动 INI 文件的处理..."
+    IDS_LINIEXISTS          "现有 INI 文件将被更新"
+    IDS_LINIFINISHED        "INI 文件处理完成!"
+    IDS_LFILEOPENED         "打开了 %1 文件!"
+    IDS_LINIKEYSREVERSED    "INI 文件键/值反转完成!"
+    IDS_LINIOPENING         "打开 INI 文件以处理..."
+    IDS_LINICHECKING        "检查 INI 文件..."
+    IDS_LINICHECKDONE       "INI 文件检查完成!"
+    IDS_TEXTCLIPPED         "找到标签 '%1' (%2,%3)-(%4,%5) 行号 %6!d!"
+    IDS_TEXTCLIPPED2        "      所需大小 %1!d!x%2!d!"
+    IDS_TEXTCLIPPED3        "      推荐矩形 (%1!d!,%2!d!)-(%3!d!,%4!d!)"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TEXTCLIPPED4        "base %1!d!x%2!d!"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 9, 1
+#pragma code_page(65001)
+#include "res\LocalizeRC.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

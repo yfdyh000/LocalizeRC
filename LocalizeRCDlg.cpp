@@ -285,9 +285,9 @@ BOOL CLocalizeRCDlg::OnInitDialog()
 	
 	AddLanguage( &m_CtrlLanguage, _T("09"), LangID );
 	
-	// the last 2 chars are the LanguageID in hexadecimal form
+	// the last 4 chars are the LanguageID in hexadecimal form
 	CString strSearch;
-	strSearch.Format( _T("%sLocalizeRC??.dll"), GetFolder(szFilename) );
+	strSearch.Format( _T("%sLocalizeRC????.dll"), GetFolder(szFilename) );
 
 	BOOL bResult = Finder.FindFile( strSearch );
 	CString strLangCode;

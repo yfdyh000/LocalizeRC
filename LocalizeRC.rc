@@ -13,10 +13,10 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// German (Germany) resources
+// English (United States) resources
 
-#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
-LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
 
 #ifdef APSTUDIO_INVOKED
@@ -54,7 +54,7 @@ END
 
 #endif    // APSTUDIO_INVOKED
 
-#endif    // German (Germany) resources
+#endif
 /////////////////////////////////////////////////////////////////////////////
 
 
@@ -111,7 +111,7 @@ BEGIN
     GROUPBOX        "Workspace",IDC_STATIC,7,3,320,95
     COMBOBOX        IDC_LANGUAGE,335,80,138,71,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
     LTEXT           "Language",IDC_STATIC,335,66,138,14,SS_CENTERIMAGE
-    CONTROL         "",IDC_EDIT,"RichEdit20W",ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,7,112,466,128,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_EDIT,"RichEdit20W",WS_VSCROLL | WS_HSCROLL | WS_TABSTOP | 0x884,7,112,466,128,WS_EX_CLIENTEDGE
     CTEXT           "Log Window",IDC_STATIC,7,102,466,8
     CTEXT           "Static",IDC_TEXTMODE,335,52,138,8
     CONTROL         "New items to the end of the section (no sorting)",IDC_NOSORT,
@@ -267,7 +267,7 @@ BEGIN
     IDS_ERR_OPENWORKSPACE   "Could not open workspace!"
     IDS_ERR_UNKNOWN         "Unknown error %d!"
     IDS_ERR_OPENINI         "Could not open INI file."
-    IDS_ABOUT               "Localize RC v1.12 -© 2003-2004\nby Konrad Windszus\nUpdates by WDPS Software 2013\n Updates by Christophe Bucher 2015-2017"
+    IDS_ABOUT               "Localize RC v1.12 -(c) 2003-2004\nby Konrad Windszus\nUpdates by WDPS Software 2013\n Updates by Christophe Bucher 2015-2017"
     IDS_LWSPACELOADED       "Workspace loaded!"
     IDS_LDIALOGSECFOUND     "Dialog section '%1' processed - %2!d! items found, %3!d! items updated, %4!d! items skipped"
     IDS_LKEYSKIPPED         "Entry '%1' in current section skipped due to mismatch with new entry of '%2'"

@@ -1,0 +1,6 @@
+﻿LangINI=.\ChineseSimplified.ini
+OutputRC=.\ChineseSimplified.rc
+Copy=0
+ObsoleteItems=0
+InputRC=..\LocalizeRC.rc
+NoSort=0

@@ -2,15 +2,15 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{84820b76-23cd-4e36-9ff1-b42196963b4d}</UniqueIdentifier>
+      <UniqueIdentifier>{0570f708-4692-48d8-a05c-c7eb6c9fd40a}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{fc175115-808f-4def-9e83-27fe0068bee8}</UniqueIdentifier>
+      <UniqueIdentifier>{f904cc0e-1ecd-4c33-b4a5-d3126a83db8e}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{8d716e8c-e429-4df7-bd96-18c8b93152c1}</UniqueIdentifier>
+      <UniqueIdentifier>{9eb04a74-2369-4f23-9bd7-e98fc0030744}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
     </Filter>
   </ItemGroup>
@@ -25,9 +25,9 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\LocalizeRC.ico">
+    <None Include="res\LocalizeRC.ico">
       <Filter>Resource Files</Filter>
-    </Image>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Manifest Include="res\LocalizeRC.manifest" />
